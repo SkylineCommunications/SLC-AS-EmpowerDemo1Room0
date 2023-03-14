@@ -32,7 +32,6 @@ jobs:
     
    # Optional 0 or More CD Jobs as needed
   CD:
-     if: github.ref_type == 'tag'
      environment: production
      name: CD
      runs-on: ubuntu-latest
