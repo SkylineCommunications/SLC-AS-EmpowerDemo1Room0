@@ -62,7 +62,7 @@
       <Version>10.0.0.5</Version>
     </PackageReference>
     <PackageReference Include="Skyline.DataMiner.Empower.Library.Room0">
-      <Version>1.0.1-beta1</Version>
+      <Version>1.0.1-beta3</Version>
     </PackageReference>
     <PackageReference Include="StyleCop.Analyzers">
       <Version>1.1.118</Version>
@@ -73,7 +73,7 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties DisLinkedXmlFile="..\SLC-AS-EmpowerDemo1Room0.xml" DisProjectType="automationScriptProject" DisLinkId="1" />
+      <UserProperties DisLinkId="1" DisProjectType="automationScriptProject" DisLinkedXmlFile="..\SLC-AS-EmpowerDemo1Room0.xml" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
