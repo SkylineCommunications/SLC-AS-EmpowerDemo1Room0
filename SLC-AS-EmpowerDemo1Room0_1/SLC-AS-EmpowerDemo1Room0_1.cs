@@ -49,9 +49,9 @@ dd/mm/2023	1.0.0.1		XXX, Skyline	Initial version
 ****************************************************************************
 */
 
-using Skyline.DataMiner.Automation;
+using Empower.Library.Room0;
 
-using Utils.ExternalLogger;
+using Skyline.DataMiner.Automation;
 
 /// <summary>
 /// DataMiner Script Class.
@@ -64,6 +64,7 @@ public class Script
 	/// <param name="engine">Link with SLAutomation process.</param>
 	public void Run(Engine engine)
 	{
-		ExternalLogger.Instance.Log("Hello From Jan Staelens!");
+		var order = OrderFactory.CreateOrder("Order 1");
+		order.Dispatch("Jan Staelens");
 	}
 }
