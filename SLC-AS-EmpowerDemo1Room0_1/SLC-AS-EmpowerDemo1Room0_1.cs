@@ -49,7 +49,7 @@ dd/mm/2023	1.0.0.1		XXX, Skyline	Initial version
 ****************************************************************************
 */
 
-using Empower.Library.Room0;
+using Empower.Library.RoomTest;
 
 using Skyline.DataMiner.Automation;
 
@@ -64,7 +64,7 @@ public class Script
 	/// <param name="engine">Link with SLAutomation process.</param>
 	public void Run(Engine engine)
 	{
-		var order = OrderFactory.CreateOrder("Order 1");
-		order.Dispatch("Jan Staelens");
+		var order = OrderFactory.CreateOrder("Testing");
+		order.Dispatch("TestUser");
 	}
 }

@@ -61,8 +61,8 @@
     <PackageReference Include="Skyline.DataMiner.Dev.Automation">
       <Version>10.0.0.5</Version>
     </PackageReference>
-    <PackageReference Include="Skyline.DataMiner.Empower.Library.Room0">
-      <Version>1.0.1-beta3</Version>
+    <PackageReference Include="Skyline.DataMiner.Empower.Library.RoomTest">
+      <Version>1.0.1</Version>
     </PackageReference>
     <PackageReference Include="StyleCop.Analyzers">
       <Version>1.1.118</Version>
