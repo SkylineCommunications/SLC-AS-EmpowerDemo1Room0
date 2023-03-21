@@ -31,7 +31,7 @@ jobs:
            # The API-key: generated in the DCP Admin app (https://admin.dataminer.services/) as authentication for a certain DataMiner System.
            api-key: ${{ secrets.DATAMINER_DEPLOY_KEY }}
            solution-path: ./AutomationScript.sln
-           artifact-name: ${{ github.repository }} ${{ github.ref_name }}_${{ github.run_number }}
+           artifact-name: ${{ github.repository }} ${{ github.ref_name }}_B${{ github.run_number }}
            build-number: ${{ github.run_number }}
            
        - name: Skyline DataMiner Deploy Action Release
