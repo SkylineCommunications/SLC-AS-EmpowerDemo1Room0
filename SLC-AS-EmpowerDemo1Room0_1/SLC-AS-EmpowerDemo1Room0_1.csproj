@@ -62,7 +62,7 @@
       <Version>10.0.0.5</Version>
     </PackageReference>
     <PackageReference Include="Skyline.DataMiner.Empower.Library.RoomTest">
-      <Version>1.0.1</Version>
+      <Version>1.0.3</Version>
     </PackageReference>
     <PackageReference Include="StyleCop.Analyzers">
       <Version>1.1.118</Version>
